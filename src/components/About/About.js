@@ -5,7 +5,7 @@ import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import Toolstack from "./Toolstack";
-import aboutMe from "../../Assets/aboutMe.png"
+import Avatar from "../../Assets/avatar.svg"
 
 
 function About() {
@@ -32,10 +32,10 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={aboutMe} 
+            <img src={Avatar} 
             alt="aboutMe" 
             className="img-fluid"
-            style={{ maxHeight: "250px", maxWidth: "350px" }}
+            style={{ maxHeight: "250px", maxWidth: "300px", paddingTop: "5px", paddingBottom: "40px" }}
             />
           </Col>
         </Row>

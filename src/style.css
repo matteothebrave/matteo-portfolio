@@ -456,10 +456,11 @@ button:focus {
   height: auto !important;
 }
  
-/* .img-fluid {
-  width: 70%;
+.img-fluid {
+  width: 100%;
   height: auto !important;
-} */
+  padding-top: 120px;
+}
 
 .blog-card-view {
   background-color: transparent !important;

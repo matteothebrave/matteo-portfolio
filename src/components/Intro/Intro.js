@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import aboutMe from "../../Assets/aboutMe.png";
 import Tilt from "react-parallax-tilt";
 import Particle from "../Particle";
 import {
@@ -55,10 +55,10 @@ function Intro() {
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvatar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar"
-              style={{ maxHeight: "270px" }} />
+              <img src={aboutMe} className="img-fluid" alt="avatar"
+              style={{ height: "200px" }} />
             </Tilt>
           </Col>
         </Row>
