@@ -2,7 +2,7 @@ html {
   --section-background-color: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgba(15, 121, 148, 0.904)
   );
 
   --image-gradient: linear-gradient(
@@ -55,10 +55,7 @@ button:focus {
   width: 7px;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #0738da;
-}
+
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
@@ -76,10 +73,14 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background: linear-gradient(
+    to bottom left,
+    rgba(14, 137, 209, 0.582),
+    rgba(233, 231, 231, 0.904)
+  );
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
-  backdrop-filter: blur(15px) !important;
+  box-shadow: 0px 1px 1px 0px rgba(179, 179, 179, 0.973) !important;
+  backdrop-filter: blur(4px) !important;
 }
 
 .navbar {
@@ -190,7 +191,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #557ac0;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -204,40 +205,9 @@ button:focus {
 /* --------- */
 /* Home section */
 /* --------- */
-.wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
-  display: inline-block;
-}
 
-@keyframes wave-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
-  20% {
-    transform: rotate(-8deg);
-  }
-  30% {
-    transform: rotate(14deg);
-  }
-  40% {
-    transform: rotate(-4deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  60% {
-    transform: rotate(0deg);
-  } /* Reset for the last half to pause */
-  100% {
-    transform: rotate(0deg);
-  }
-}
+
+
 #tsparticles {
   position: fixed !important;
   background-repeat: no-repeat !important;
@@ -248,12 +218,13 @@ button:focus {
 
 .home-header {
   padding-top: 80px !important;
+  
 }
 
 .home-section {
   position: center;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-image: var(--section-background-color) !important;
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -314,9 +285,13 @@ button:focus {
 }
 
 .home-about-section {
-  position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  position: center;
+  z-index: -1;
+  background-image: var(--section-background-color) !important;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
 }
 
 .home-about-description {
@@ -398,7 +373,11 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background: linear-gradient(
+    to bottom left,
+    rgba(14, 137, 209, 0.582),
+    rgba(233, 231, 231, 0.904)
+  );
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -435,7 +414,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #dcd4e4 !important;
 }
 /* --------- */
 /* Projects */
@@ -476,8 +455,8 @@ button:focus {
   padding-right: 25px !important;
   height: auto !important;
 }
-/* 
-.img-fluid {
+ 
+/* .img-fluid {
   width: 70%;
   height: auto !important;
 } */

@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { Check } from 'phosphor-react'
 
 function AboutCard() {
   return (
@@ -17,20 +17,20 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Talking about God
+              <Check /> Talking about God
             </li>
             <li className="about-activity">
-              <ImPointRight /> Training Dogs
+              <Check /> Training Dogs
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing sports
+              <Check /> Playing all kind of sports
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "white" }}> <br></br>
             "Under development, brick by brick, aiming the endless ladder of knowledge"{" "}
           </p>
-          <footer className="blockquote-footer">Matteo</footer>
+          <footer className="blockquote-footer">M.G</footer>
         </blockquote>
       </Card.Body>
     </Card>
