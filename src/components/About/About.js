@@ -37,6 +37,7 @@ function About() {
             className="img-fluid"
             style={{ maxHeight: "250px", maxWidth: "300px", paddingTop: "5px", paddingBottom: "40px" }}
             />
+          
           </Col>
         </Row>
         <h1 className="project-heading">

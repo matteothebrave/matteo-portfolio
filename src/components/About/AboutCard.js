@@ -10,11 +10,12 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Matteo </span>
             from <span className="purple"> Curitiba, Brazil.</span>
-            <br />I am a Junior Developer under Development
+            <br /> I am a Junior Developer under Development
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+             Those are some things i love most
           </p>
+       
           <ul>
             <li className="about-activity">
               <Check /> Talking about God
@@ -24,9 +25,11 @@ function AboutCard() {
             </li>
             <li className="about-activity">
               <Check /> Playing all kind of sports
+              
             </li>
+            
           </ul>
-
+          
           <p style={{ color: "white" }}> <br></br>
             "Under development, brick by brick, aiming the endless ladder of knowledge"{" "}
           </p>

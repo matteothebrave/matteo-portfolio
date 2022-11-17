@@ -376,7 +376,7 @@ button:focus {
   background: linear-gradient(
     to bottom left,
     rgba(14, 137, 209, 0.582),
-    rgba(233, 231, 231, 0.904)
+    rgba(139, 134, 134, 0.904)
   );
   bottom: 0 !important;
   padding-top: 10px !important;
