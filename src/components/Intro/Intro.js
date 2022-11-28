@@ -22,8 +22,7 @@ function Intro() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I fell in love with programming and i have dedicated myself to it
               <br />
               <br />I am current working and learning
               <i>
@@ -31,10 +30,9 @@ function Intro() {
               </i>
               <br />
               <br />
-              My field of interest is discovering new &nbsp;
+              My field of interest is discovering new&nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">Web Technologies and Products </b>
               </i>
               <br />
               <br />
