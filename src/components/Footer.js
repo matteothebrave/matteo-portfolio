@@ -34,7 +34,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/matteothebrave"
+                href="https://twitter.com/matteothebrave32323"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -44,7 +44,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/matheus-grossi-f-t-de-oliveira-1437b2143/"
+                href="https://www.linkedin.com/in/matheus-grossi-1437b2143/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -54,7 +54,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/math3ustavar3s"
+                href="https://www.instagram.com/matheusgrossi__"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
