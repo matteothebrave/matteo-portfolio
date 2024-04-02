@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Porfolio under construction.
 <br>
 <i> Some cool features are coming! </i> <br>
@@ -13,5 +13,3 @@ Porfolio under construction.
   
 <h4 align=center> Some cool features are coming </h4> <br> 
 
- 
->>>>>>> 54cccb3cacc394f1f5435a93f84f2b07bfd65f48
