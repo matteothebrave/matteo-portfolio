@@ -4,9 +4,9 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import { Handshake, House, Person, Rocket, UserFocus } from 'phosphor-react'
+import { FilmIcon } from "lucide-react";
 
 
-import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -64,6 +64,15 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <Person style={{ marginBottom: "2px" }} /> About
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/other"
+                onClick={() => updateExpanded(false)}
+              >
+                <FilmIcon style={{ marginBottom: "2px" }} /> Other
               </Nav.Link>
             </Nav.Item>
 
