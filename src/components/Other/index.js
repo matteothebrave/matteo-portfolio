@@ -16,7 +16,7 @@ function Other() {
           <div>
           <iframe autoplay="false" muted="false" src='https://widgets.sociablekit.com/twitch-live-videos/iframe/25392232' frameborder='0' width='100%' height='1000' allowFullScreen ></iframe>
           </div>
-          <h1>Todo mundo odeia o Chris - 24 oras </h1>
+          <h1>Todo mundo odeia o Chris - 24 horas </h1>
           <iframe autoplay="false" muted="true" src='https://widgets.sociablekit.com/twitch-live-videos/iframe/25392238' frameborder='0' width='100%' height='1000' allowFullScreen ></iframe>
           </Col>
         
