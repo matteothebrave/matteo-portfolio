@@ -19,7 +19,7 @@ function Other() {
           <div id="twitch-embed">Twitch</div>
           </div>
           <h1>Todo mundo odeia o Chris - 24 horas </h1>
-          <iframe src="https://player.twitch.tv/?channel=todomundoodeia&parent=matteo-portfolio-matteothebrave.bohr.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+          <iframe src="https://player.twitch.tv/?channel=todomundoultrahd&parent=matteo-portfolio-matteothebrave.bohr.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
           </Col>
         
         </Row>
