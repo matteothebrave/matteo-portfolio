@@ -67,13 +67,13 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              {/* <Nav.Link
+              <Nav.Link
                 as={Link}
-                to="/other"
+                to="/secret"
                 onClick={() => updateExpanded(false)}
               >
-                <FilmIcon style={{ marginBottom: "2px" }} /> Other
-              </Nav.Link> */}
+                <FilmIcon style={{ marginBottom: "2px" }} /> Secret
+              </Nav.Link>
             </Nav.Item>
 
       

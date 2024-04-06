@@ -3,10 +3,10 @@ import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About.js";
-import Projects from "./components/Projects/Projects";
+// import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
-import Resume from "./components/Resume/ResumeNew"
-import Other from "./components/Other/index.js"
+// import Resume from "./components/Resume/ResumeNew"
+import Secret from "./components/Secret/Secret.js"
 import Intro from "./components/Intro/Intro"
 import {
   BrowserRouter as Router,
@@ -40,7 +40,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/intro" element={<Intro />} />
           <Route path="/about" element={<About />} /> 
-          <Route path="/other" element={<Other />} />
+          <Route path="/secret" element={<Secret />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
