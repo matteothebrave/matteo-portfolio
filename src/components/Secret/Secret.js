@@ -20,7 +20,7 @@ function Secret() {
           <iframe src="https://player.twitch.tv/?channel=euapatroaeascrias&parent=matteo-portfolio-matteothebrave.bohr.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
           </div>
           <h1>Todo mundo odeia o Chris - 24 horas </h1>
-          <iframe src="https://player.twitch.tv/?channel=todomundoultrahd&parent=matteo-portfolio-matteothebrave.bohr.io" frameborder="0" allowfullscreen="true" muted="true" autoplay="false" height="378" width="620"></iframe>
+          <iframe src="https://player.twitch.tv/?channel=todo_mundo_ama_br&parent=matteo-portfolio-matteothebrave.bohr.io" frameborder="0" allowfullscreen="true" muted="true" autoplay="false" height="378" width="620"></iframe>
           </Col>
         
         </Row>
